@@ -1,6 +1,7 @@
 import "./App.css";
 import LikeButton from "./components/like-button";
 import Counter from "./components/counter";
+import ClickablePicture from "./components/clickable-picture";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <LikeButton />
 
       <Counter />
+
+      <ClickablePicture />
 
     </div>
   );
